@@ -1,0 +1,60 @@
+<!-- /*
+* @name: Assignment1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Chidiebere Nwigwe Godwin
+*/ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Converter</title>
+    <link rel="stylesheet" href="weather.css" />
+    <script
+      src="https://kit.fontawesome.com/b4df3df2da.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+  
+    <h1>Weather Converter</h1>
+    <h4>Input numeric value in fahrenheit box to display corresponding Celsius and Kelvin Values.</h4>
+    <div class="container">
+      
+
+        <div class="row">
+            <div class="col">
+                <label for="fahrenheit">Fahrenheit</label>
+                <input type="text" placeholder="Fahrenheit" id="fahrenheit" />
+            </div>
+         
+    
+          <div class="col">
+            <label for="celsius">Celsius</label>
+            <input type="text" placeholder="Celsius" id="celsius" disabled />
+          </div>
+          
+          
+          <div class="col">
+            <label for="kelvin">Kelvin</label>
+            <input type="text" placeholder="Kelvin" id="kelvin" disabled />
+          </div>
+        </div>
+       
+    
+    </div>
+    <button id="convert">Convert</button>
+    <footer>
+      <p>
+        Chidiebere Nwigwe
+        <i class="fa-solid fa-copyright"></i>
+        Copyright 2024
+      </p>
+    </footer>
+
+    <script src="weather.js"></script>
+  </body>
+</html>

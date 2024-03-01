@@ -1,0 +1,82 @@
+ /*
+* @name: Assignment1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Chidiebere Nwigwe Godwin
+*/ 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(black.png);
+}
+h1{
+    text-align: center;
+    color:  #9d0b48;
+}
+input{
+    height: 100px;
+    width: 100px;
+    font-size: larger;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(50,50,50);
+
+}
+input:hover{
+    border: 5px double #9d0b48;
+    color: #9d0b48;
+    font-weight: bolder;
+}
+footer{
+    color: #9d0b48;
+    position: absolute;
+    margin: 0;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button + p{
+    color: #9d0b48;
+    font-size: x-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+button:hover{
+    color: #9d0b48;
+    
+
+}
+@media only screen and (max-height: 400px ) {
+    input{
+        height: 40px;
+        width: 50px;
+        top: 40%;
+
+    }
+    footer {
+      top: 90%;
+    }
+    button{
+        top: 75%;
+    }
+}
