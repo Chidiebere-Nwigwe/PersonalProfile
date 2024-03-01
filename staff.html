@@ -16,14 +16,14 @@
   ></script>
     <link rel="stylesheet" href="staff.css">
 </head>
-<body >
+<body onload="resetSelectBox()">
     <h1>Staff Page</h1>
 
     <h4>Sort Staff Data</h4>
     <div id="sort">
   
         <select name="select" id="select">
-            <option value="" id="sortBy" selected>Select an Option</option>    
+            <option value="sortBy" id="sortBy" selected>Select an Option</option>    
             <option value="sortByName" id="sortByName">By Name</option>
             <option value="sortBySalary" id="sortBySalary">By Salary</option>
         </select>
